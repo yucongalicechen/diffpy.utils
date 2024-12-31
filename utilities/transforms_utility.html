@@ -6,14 +6,14 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Resample Utility &mdash; diffpy.utils 3.5.0 documentation</title>
+  <title>Transforms Utility &mdash; diffpy.utils 0.0.1 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
-      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=7ab3649f" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
 
   
       <script src="../_static/jquery.js?v=5d32c60e"></script>
       <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="../_static/documentation_options.js?v=47b26e07"></script>
+      <script src="../_static/documentation_options.js?v=f539c95a"></script>
       <script src="../_static/doctools.js?v=9bcbadda"></script>
       <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/js/theme.js"></script>
@@ -62,9 +62,9 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">Resample Utility</li>
+      <li class="breadcrumb-item active">Transforms Utility</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../_sources/utilities/resampleutility.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/utilities/transforms_utility.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -72,14 +72,15 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="resample-utility">
-<span id="id1"></span><h1>Resample Utility<a class="headerlink" href="#resample-utility" title="Link to this heading"></a></h1>
-<ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">wsinterp()</span></code>: Allows users easily reample a PDF onto another grid.
-This makes use of the Whittaker-Shannon interpolation formula.
-To see the theory behind how this interpolation works and how to use
-it in practice, click <a class="reference internal" href="../examples/resampleexample.html#resample-example"><span class="std std-ref">here</span></a>.</p></li>
-</ul>
+  <section id="transforms-utility">
+<span id="id1"></span><h1>Transforms Utility<a class="headerlink" href="#transforms-utility" title="Link to this heading"></a></h1>
+<p>The <code class="docutils literal notranslate"><span class="pre">diffpy.utils.transforms</span></code> module provides a set of functions for managing and analyzing diffraction data,
+including angle-space transformations between <code class="docutils literal notranslate"><span class="pre">q</span></code>, <code class="docutils literal notranslate"><span class="pre">2theta</span></code>, and <code class="docutils literal notranslate"><span class="pre">d</span></code>-spacing.</p>
+<p>These functions allow developers to standardize diffraction data and convert it between different spacings,
+simplifying analysis, visualization, and processing.
+They are also internally used by the <code class="docutils literal notranslate"><span class="pre">DiffractionObject</span></code> class for efficient data manipulation.
+For more information about this, click <span class="xref std std-ref">here</span>.</p>
+<p>For a more in-depth tutorial for how to use these functions, click <a class="reference internal" href="../examples/transforms_example.html#transforms-example"><span class="std std-ref">here</span></a>.</p>
 </section>
 
 
